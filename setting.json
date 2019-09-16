@@ -1,70 +1,84 @@
-
 // Place your settings in this file to overwrite the default settings
 {
-"python.formatting.provider": "yapf",
-"view-in-browser.customBrowser": "chrome",
- 
-"files.associations": {
-"*.vue": "vue"
-},
-"eslint.options": {
-"extensions": [
-".js",
-".vue"
-]
-},
-"search.exclude": {
-"**/node_modules": true,
-"**/bower_components": true,
-"**/dist": true
-},
-"emmet.syntaxProfiles": {
-"javascript": "jsx",
-"vue": "html",
-"vue-html": "html"
-},
-"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-// 编辑粘贴自动格式化
-"editor.formatOnPaste": true,
-// 控制字体系列。
-// "editor.fontFamily": "pingfang,Menlo, Monaco, 'Courier New', monospace",
- 
-// 通过使用鼠标滚轮同时按住 Ctrl 可缩放编辑器的字体
-"editor.mouseWheelZoom": false,
-// 行太长自动换行
-"editor.wordWrap": "on",
-//Windows bash终端"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-// 主体
-"workbench.colorTheme": "Monokai",
-"workbench.iconTheme": "vs-seti",
-// eslint设置
-"eslint.validate": [
-"javascript",
-"javascriptreact",
-"html",
-"vue",
-{
-"language": "vue",
-"autoFix": true
+    "python.formatting.provider": "yapf",
+    "view-in-browser.customBrowser": "chrome",
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".vue"
+        ]
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    // 编辑粘贴自动格式化
+    "editor.formatOnPaste": true,
+    // 控制字体系列。
+    // "editor.fontFamily": "pingfang,Menlo, Monaco, 'Courier New', monospace",
+    // 通过使用鼠标滚轮同时按住 Ctrl 可缩放编辑器的字体
+    "editor.mouseWheelZoom": false,
+    // 行太长自动换行
+    "editor.wordWrap": "on",
+    //Windows bash终端"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // 主体
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-seti",
+    // eslint设置
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    // 保存自动修复
+    "eslint.autoFixOnSave": true,
+    // tab锁紧
+    "editor.tabSize": 2,
+    // 保存自动化
+    "editor.formatOnSave": true,
+    // 空格变成......
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": -1,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "afterDelay",
+    "editor.accessibilitySupport": "off",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "prettier.singleQuote": true,
+    "vsicons.projectDetection.autoReload": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    //设置文件头部注释 CTRL+ ALT + I
+    "fileheader.customMade": {
+        "Module": "", //模块
+        "FileName": "", //文件名称
+        "Description": "", //描述
+        "Author": "Liuyi", //作者
+        "Date": "Do not edit", //日期
+        "LastEditors": "Liuyi", //最后编辑人
+        "LastEditTime": "Do not edit" //最后编辑时间
+    },
+    // 设置方法注释 CTRL+ ALT + T
+    "fileheader.cursorMode": {
+        "Description": "", //描述
+        "Author": "Liuyi", //作者
+        "Param": "", //参数
+        "Return": "", //返回值
+        "Date": "Do not edit", //日期
+    }
 }
-],
-// 保存自动修复
-"eslint.autoFixOnSave": true,
-// tab锁紧
-"editor.tabSize": 2,
-// 保存自动化
-"editor.formatOnSave": true,
-// 空格变成......
-"editor.renderWhitespace": "all",
-"window.zoomLevel": -1,
-"vetur.format.defaultFormatter.html": "js-beautify-html",
-"typescript.updateImportsOnFileMove.enabled": "always",
-"files.autoSave": "afterDelay",
-"editor.accessibilitySupport": "off",
-"editor.suggestSelection": "first",
-"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-"prettier.singleQuote": true,
-"vsicons.projectDetection.autoReload": true,
-"vsicons.dontShowNewVersionMessage": true
-}
- 
